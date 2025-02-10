@@ -1,4 +1,4 @@
 {
-    "projeto": "${{parameters.name || 'dump'}}",
-    "serviço": "${{parameters.service || 'dump'}}"
+    "projeto": "${{values.name || 'dump'}}",
+    "serviço": "${{values.service || 'dump'}}"
 }
